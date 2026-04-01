@@ -109,4 +109,114 @@ export const conversationCards: CardTemplate[] = [
     },
     tags: ["question", "conversation", "essential"],
   },
+  {
+    type: "PHRASE",
+    front: { text: "Listen... (getting attention)" },
+    back: {
+      text: "सुनिए / सुनो",
+      transliteration: "Suniye / Suno",
+      explanation:
+        "'Suniye' = respectful (elders, in-laws). 'Suno' = casual (friends, spouse). Natural way to start any conversation. 'Accha suniye...' is very common.",
+    },
+    tags: ["conversation", "opener", "essential"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "By the way..." },
+    back: {
+      text: "वैसे...",
+      transliteration: "Waise...",
+      explanation:
+        "Conversational pivot. 'Waise, aapka kaam kaisa chal raha hai?' (By the way, how's your work going?). Very natural topic-changer.",
+    },
+    tags: ["conversation", "filler", "essential"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "How is your work going?" },
+    back: {
+      text: "काम कैसा चल रहा है?",
+      transliteration: "Kaam kaisa chal raha hai?",
+      explanation:
+        "Standard conversation topic with family. 'Chal raha hai' = going/ongoing. Reply: 'Theek hai, chal raha hai' (It's fine, going on).",
+    },
+    tags: ["conversation", "question", "family"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "It's been a long time!" },
+    back: {
+      text: "बहुत दिन हो गए!",
+      transliteration: "Bahut din ho gaye!",
+      explanation:
+        "Said when you haven't seen someone in a while. Often followed by: 'Kahan the?' (Where were you?) or 'Milke accha laga' (Nice to see you).",
+    },
+    tags: ["conversation", "greeting", "family"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "Nice to meet you / Good seeing you" },
+    back: {
+      text: "मिलके अच्छा लगा",
+      transliteration: "Milke accha laga",
+      explanation:
+        "Warm expression when meeting someone or saying goodbye. Very genuine-sounding. Male speaker form.",
+    },
+    tags: ["conversation", "greeting", "essential"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "What do you think?" },
+    back: {
+      text: "आपको क्या लगता है?",
+      transliteration: "Aapko kya lagta hai?",
+      explanation:
+        "Great for including elders in conversation. Shows respect by asking their opinion. Casual version: 'Tujhe kya lagta hai?'",
+    },
+    tags: ["conversation", "question", "respectful"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "That reminds me..." },
+    back: {
+      text: "हाँ, याद आया...",
+      transliteration: "Haan, yaad aaya...",
+      explanation:
+        "Natural way to bring up a new topic or memory in conversation. 'Yaad' = memory. Very conversational.",
+    },
+    tags: ["conversation", "filler", "transition"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "I was saying..." },
+    back: {
+      text: "मैं कह रहा था कि...",
+      transliteration: "Main keh raha tha ki...",
+      explanation:
+        "Getting back to your point after an interruption. Indian conversations are lively — you'll need this!",
+    },
+    tags: ["conversation", "continuation", "essential"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "Same here / Me too" },
+    back: {
+      text: "मेरा भी / मुझे भी",
+      transliteration: "Mera bhi / Mujhe bhi",
+      explanation:
+        "'Mera bhi' for possessive (my X too). 'Mujhe bhi' for feelings/wants (I also want/feel). Quick agreement in conversation.",
+    },
+    tags: ["conversation", "agreement", "casual"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "Isn't that right? (seeking agreement)" },
+    back: {
+      text: "सही कहा ना?",
+      transliteration: "Sahi kaha na?",
+      explanation:
+        "Rhetorical check — you're stating something and looking for a nod. 'Na' at the end softens it. Very natural in group conversations.",
+    },
+    tags: ["conversation", "agreement", "filler"],
+  },
 ];

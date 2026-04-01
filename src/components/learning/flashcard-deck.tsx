@@ -118,10 +118,22 @@ export function FlashcardDeck({
         return;
       }
 
-      if (event.key === " " || (event.key === "Enter" && !testMode)) {
+      if (
+        event.key === " " ||
+        event.key === "Enter" ||
+        event.key === "ArrowRight"
+      ) {
         event.preventDefault();
         if (!isFlipped) {
           setIsFlipped(true);
+        }
+        return;
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        if (isFlipped) {
+          setIsFlipped(false);
         }
         return;
       }
@@ -131,10 +143,6 @@ export function FlashcardDeck({
       }
 
       const ratingByKey: Partial<Record<string, ReviewRating>> = {
-        ArrowLeft: 1,
-        ArrowDown: 2,
-        ArrowRight: 3,
-        ArrowUp: 4,
         "1": 1,
         "2": 2,
         "3": 3,
@@ -291,13 +299,13 @@ export function FlashcardDeck({
         <p className="text-sm text-zinc-400">
           {testMode
             ? "Type an answer and press Enter to check it"
-            : "Tap the card or press Space/Enter to see the answer"}
+            : "Tap the card or press Right Arrow, Space, or Enter to see the answer"}
         </p>
       )}
 
       {isFlipped && (
         <p className="text-xs text-zinc-400 text-center">
-          Hotkeys: Left = Again, Down = Hard, Right = Good, Up = Easy
+          Hotkeys: Left = front, Right = answer, 1-4 = Again/Hard/Good/Easy
         </p>
       )}
     </div>

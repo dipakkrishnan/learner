@@ -32,7 +32,7 @@ export const foodHouseholdCards: CardTemplate[] = [
       text: "चाय पिएँगे?",
       transliteration: "Chai piyenge?",
       explanation:
-        "Tea is central to Indian hospitality. You'll hear this many times a day. Answer: 'Ji haan' or 'Ji nahin'.",
+        "Tea is central to Indian hospitality. You'll hear this many times a day. Answer: 'Ji haan', 'Haan zaroor' (yes, of course), or 'Abhi nahin, shukriya' (not now, thanks).",
     },
     tags: ["food", "essential", "hospitality"],
   },

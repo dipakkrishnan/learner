@@ -7,7 +7,7 @@ export const phraseCards: CardTemplate[] = [
     back: {
       text: "क्या हाल है?",
       transliteration: "Kya haal hai?",
-      explanation: "Casual 'how are you'. Works with everyone.",
+      explanation: "Casual version of 'Aap kaise hain?' from Phase 1. Less formal, works with everyone — friends, cousins, siblings.",
     },
     tags: ["phrase", "casual", "greeting"],
   },
@@ -84,5 +84,60 @@ export const phraseCards: CardTemplate[] = [
         "'Chalo' is casual (friends/peers). 'Chaliye' is respectful (elders).",
     },
     tags: ["phrase", "casual", "essential"],
+  },
+  {
+    type: "VOCABULARY",
+    front: { text: "Numbers 1–5" },
+    back: {
+      text: "एक, दो, तीन, चार, पाँच",
+      transliteration: "Ek, do, teen, chaar, paanch",
+      explanation:
+        "Essential for 'ek aur roti' (one more roti), 'do minute' (two minutes), 'teen baje' (3 o'clock).",
+    },
+    tags: ["numbers", "essential", "vocabulary"],
+  },
+  {
+    type: "VOCABULARY",
+    front: { text: "Numbers 6–10" },
+    back: {
+      text: "छह, सात, आठ, नौ, दस",
+      transliteration: "Chhah, saat, aath, nau, das",
+      explanation:
+        "Beyond 10, people often switch to English numbers in casual Hinglish. These 10 cover most everyday needs.",
+    },
+    tags: ["numbers", "essential", "vocabulary"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "Where is the bathroom?" },
+    back: {
+      text: "बाथरूम कहाँ है?",
+      transliteration: "Bathroom kahaan hai?",
+      explanation:
+        "'Bathroom' in English is standard — nobody says the Hindi equivalent in real life. 'Kahaan hai' = where is.",
+    },
+    tags: ["phrase", "essential", "survival"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "I'll be right back" },
+    back: {
+      text: "मैं अभी आता हूँ",
+      transliteration: "Main abhi aata hoon",
+      explanation:
+        "Literally 'I come right now' — means 'be right back'. Male speaker form. Very common when stepping away briefly.",
+    },
+    tags: ["phrase", "essential", "casual"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "How much does this cost?" },
+    back: {
+      text: "यह कितने का है?",
+      transliteration: "Yeh kitne ka hai?",
+      explanation:
+        "Essential for shopping, autos, street food. Expect the answer in a mix of Hindi and English numbers.",
+    },
+    tags: ["phrase", "essential", "practical"],
   },
 ];

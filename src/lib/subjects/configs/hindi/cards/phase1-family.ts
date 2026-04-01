@@ -27,10 +27,10 @@ export const familyCards: CardTemplate[] = [
     type: "VOCABULARY",
     front: { text: "Sister-in-law (wife's sister)" },
     back: {
-      text: "ननद",
-      transliteration: "Nanad",
+      text: "साली",
+      transliteration: "Saali",
       explanation:
-        "Your wife's sister. In real families you'll often just use her name or a casual kinship term.",
+        "Your wife's sister. In practice you'll use her name, 'didi' (if older), or whatever the family uses. Note: 'Nanad' means husband's sister — different relationship.",
     },
     tags: ["family", "essential", "in-laws"],
   },
@@ -41,7 +41,7 @@ export const familyCards: CardTemplate[] = [
       text: "साला",
       transliteration: "Saala",
       explanation:
-        "Technically your wife's brother. In actual family conversation, people often just use his name, 'bhai', or 'bhaiya'.",
+        "⚠️ Technically your wife's brother, BUT 'saala' is widely used as a casual swear word among friends. NEVER use this word to refer to someone — use his name, 'bhai', or 'bhaiya' instead. You'll hear it in movies and banter, not in polite family settings.",
     },
     tags: ["family", "essential", "in-laws"],
   },
@@ -107,5 +107,38 @@ export const familyCards: CardTemplate[] = [
       explanation: "Plural of 'baccha' (child). Very common word in family settings.",
     },
     tags: ["family", "essential"],
+  },
+  {
+    type: "VOCABULARY",
+    front: { text: "Mom (respectful) / Dad (respectful)" },
+    back: {
+      text: "मम्मी जी / पापा जी",
+      transliteration: "Mummy ji / Papa ji",
+      explanation:
+        "This is what you'll actually call your in-laws 90% of the time — not 'saas' or 'sasur'. The 'ji' adds warmth and respect. Follow whatever your wife's family already uses.",
+    },
+    tags: ["family", "essential", "in-laws", "respect"],
+  },
+  {
+    type: "VOCABULARY",
+    front: { text: "'Ji' — the respect particle" },
+    back: {
+      text: "जी",
+      transliteration: "Ji",
+      explanation:
+        "Add 'ji' after any name or title to show respect: 'Aunty ji', 'Bhaiya ji', 'Sharma ji'. Also used alone as a polite 'yes'. It's the single most useful word for sounding respectful in Hindi.",
+    },
+    tags: ["family", "essential", "respect", "courtesy"],
+  },
+  {
+    type: "VOCABULARY",
+    front: { text: "Grandmother / Grandfather" },
+    back: {
+      text: "दादी / दादा (paternal) — नानी / नाना (maternal)",
+      transliteration: "Daadi / Daada — Naani / Naana",
+      explanation:
+        "Hindi distinguishes paternal vs maternal grandparents. For your wife's family, her grandparents are Naani/Naana. You may also hear 'Badi Mummy' or 'Bade Papa'.",
+    },
+    tags: ["family", "extended", "in-laws"],
   },
 ];

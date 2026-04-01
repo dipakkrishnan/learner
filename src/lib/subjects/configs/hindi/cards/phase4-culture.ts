@@ -65,4 +65,48 @@ export const cultureCards: CardTemplate[] = [
     },
     tags: ["cultural", "compliment", "hospitality"],
   },
+  {
+    type: "CULTURAL",
+    front: { text: "Congratulations! (wedding, baby, achievement)" },
+    back: {
+      text: "बधाई हो!",
+      transliteration: "Badhai ho!",
+      explanation:
+        "Universal congratulations. Works for weddings, births, promotions, exams — any good news. 'Bahut bahut badhai!' for extra enthusiasm.",
+    },
+    tags: ["cultural", "celebration", "essential"],
+  },
+  {
+    type: "CULTURAL",
+    front: { text: "Get well soon / Take care of your health" },
+    back: {
+      text: "जल्दी ठीक हो जाइए / अपना ख़्याल रखिए",
+      transliteration: "Jaldi theek ho jaiye / Apna khayal rakhiye",
+      explanation:
+        "'Apna khayal rakhiye' (take care of yourself) is the more common everyday phrase. Said to anyone who's unwell or even just when saying goodbye.",
+    },
+    tags: ["cultural", "caring", "family"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "You didn't need to do this! (receiving a gift)" },
+    back: {
+      text: "इसकी क्या ज़रूरत थी!",
+      transliteration: "Iski kya zaroorat thi!",
+      explanation:
+        "Polite deflection when receiving a gift or favor. It's cultural — you say this even when you're thrilled. Always followed by accepting graciously.",
+    },
+    tags: ["cultural", "hospitality", "polite"],
+  },
+  {
+    type: "PHRASE",
+    front: { text: "Come visit us sometime" },
+    back: {
+      text: "कभी हमारे घर आइए",
+      transliteration: "Kabhi hamare ghar aaiye",
+      explanation:
+        "Standard warm invitation when saying goodbye to family or friends. May or may not be literal — it's a gesture of warmth.",
+    },
+    tags: ["cultural", "hospitality", "departure"],
+  },
 ];
