@@ -34,6 +34,13 @@ export function FlashcardDeck({
 
   const currentCard = cards[currentIndex];
 
+  useEffect(() => {
+    setIsFlipped(false);
+    setAnswerInput("");
+    setComparison(null);
+    setCardStartTime(Date.now());
+  }, [currentCard?.id]);
+
   const handleFlip = useCallback((flipped: boolean) => {
     setIsFlipped(flipped);
   }, []);
@@ -210,6 +217,7 @@ export function FlashcardDeck({
 
       {/* Card */}
       <Flashcard
+        key={currentCard.id}
         front={currentCard.front}
         back={currentCard.back}
         subjectSlug={subjectSlug}
