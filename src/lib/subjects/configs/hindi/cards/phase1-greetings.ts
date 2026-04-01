@@ -3,30 +3,29 @@ import type { CardTemplate } from "@/types/subject";
 export const greetingCards: CardTemplate[] = [
   {
     type: "PHRASE",
-    front: { text: "Hello / Greetings (respectful)" },
+    front: { text: "Hello / Hi" },
     back: {
       text: "नमस्ते",
       transliteration: "Namaste",
       explanation:
-        "Universal greeting — works in every situation, formal or casual. Press palms together for extra respect.",
+        "Universal greeting. Very safe with family, elders, and first meetings. 'Hello' is also common in Hinglish.",
       examples: ["नमस्ते, आप कैसे हैं? (Namaste, aap kaise hain?)"],
     },
-    tags: ["greeting", "essential", "formal"],
+    tags: ["greeting", "essential", "casual"],
   },
   {
     type: "PHRASE",
-    front: { text: "How are you? (respectful)" },
+    front: { text: "How are you?" },
     back: {
       text: "आप कैसे हैं?",
       transliteration: "Aap kaise hain?",
       explanation:
-        "Use 'aap' (you-respectful) with elders and in-laws. 'Kaise' for males, 'kaisi' for females.",
+        "Use 'aap' with elders and in-laws. For friends, you'll hear 'Tum kaise ho?' a lot.",
       examples: [
-        "आप कैसी हैं? (Aap kaisi hain?) — to a woman",
         "तुम कैसे हो? (Tum kaise ho?) — to peers/friends",
       ],
     },
-    tags: ["greeting", "essential", "formal"],
+    tags: ["greeting", "essential", "casual"],
   },
   {
     type: "PHRASE",
@@ -50,7 +49,7 @@ export const greetingCards: CardTemplate[] = [
       explanation:
         "Touching elders' feet is a sign of deep respect in Indian families. Say 'Namaste' while doing it.",
       examples: [
-        "मैं आपके पैर छूता/छूती हूँ (Main aapke pair choota/chooti hoon)",
+        "मैं आपके पैर छूता हूँ (Main aapke pair choota hoon)",
       ],
     },
     tags: ["greeting", "cultural", "family"],
@@ -72,10 +71,10 @@ export const greetingCards: CardTemplate[] = [
     type: "PHRASE",
     front: { text: "Goodbye (I'll go now)" },
     back: {
-      text: "अच्छा, चलता/चलती हूँ",
-      transliteration: "Accha, chalta/chalti hoon",
+      text: "अच्छा, चलता हूँ",
+      transliteration: "Accha, chalta hoon",
       explanation:
-        "Casual goodbye. 'Chalta' for males, 'chalti' for females. More natural than 'alvida'.",
+        "Casual male goodbye. More natural in family settings than formal 'alvida'.",
       examples: [
         "नमस्ते, अच्छा चलते हैं (Namaste, accha chalte hain) — Bye, we'll take leave",
       ],

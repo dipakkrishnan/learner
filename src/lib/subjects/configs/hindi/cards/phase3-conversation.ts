@@ -8,7 +8,7 @@ export const conversationCards: CardTemplate[] = [
       text: "मुझे लगता है...",
       transliteration: "Mujhe lagta hai...",
       explanation:
-        "Start opinions with this. Very natural. 'Lagta' for male speaker, 'lagti' for female.",
+        "Very natural way to start an opinion. This is the male speaker form.",
     },
     tags: ["opinion", "conversation", "essential"],
   },
@@ -48,9 +48,10 @@ export const conversationCards: CardTemplate[] = [
     type: "PHRASE",
     front: { text: "When will you come?" },
     back: {
-      text: "कब आओगे/आओगी?",
-      transliteration: "Kab aaoge/aaogi?",
-      explanation: "'Aaoge' for male, 'aaogi' for female. Respectful: 'Kab aayenge?'",
+      text: "कब आओगे?",
+      transliteration: "Kab aaoge?",
+      explanation:
+        "Casual way to ask a male friend or younger relative. Respectful version: 'Kab aayenge?'",
     },
     tags: ["question", "conversation", "planning"],
   },

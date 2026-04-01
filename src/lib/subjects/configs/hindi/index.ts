@@ -4,9 +4,9 @@ import { hindiVoiceConfig } from "./voice-config";
 
 export const hindiConfig: SubjectConfig = {
   slug: "hindi",
-  name: "Conversational Hindi",
+  name: "Casual Hindi",
   description:
-    "Learn to speak Hindi with family and friends — no grammar drills, just real conversation.",
+    "Learn the Hindi and Hinglish you actually hear at home, with family, and around town.",
   icon: "🇮🇳",
   language: {
     code: "hi",

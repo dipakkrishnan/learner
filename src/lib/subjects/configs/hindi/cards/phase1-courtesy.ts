@@ -14,25 +14,25 @@ export const courtesyCards: CardTemplate[] = [
   },
   {
     type: "PHRASE",
-    front: { text: "Please / Excuse me (respectful)" },
+    front: { text: "Please / Excuse me" },
     back: {
-      text: "कृपया / माफ़ कीजिए",
-      transliteration: "Kripaya / Maaf kijiye",
+      text: "प्लीज़ / माफ़ कीजिए",
+      transliteration: "Please / Maaf kijiye",
       explanation:
-        "Kripaya = please. Maaf kijiye = excuse me / I'm sorry (respectful). Use 'maaf kijiye' to get attention politely.",
+        "'Please' in English is extremely common in Hinglish. 'Maaf kijiye' is still useful for polite interruption or apology.",
     },
-    tags: ["courtesy", "essential", "formal"],
+    tags: ["courtesy", "essential", "casual"],
   },
   {
     type: "PHRASE",
-    front: { text: "Yes (respectful) / No (respectful)" },
+    front: { text: "Yes / No (respectful)" },
     back: {
       text: "जी हाँ / जी नहीं",
       transliteration: "Ji haan / Ji nahin",
       explanation:
-        "'Ji' adds respect to everything. Always use 'ji haan' and 'ji nahin' with elders.",
+        "'Ji' softens your tone and sounds respectful. Very useful with parents and in-laws.",
     },
-    tags: ["courtesy", "essential", "formal"],
+    tags: ["courtesy", "essential", "casual"],
   },
   {
     type: "PHRASE",

@@ -48,7 +48,7 @@ export const opinionCards: CardTemplate[] = [
       text: "आप सही कह रहे हैं",
       transliteration: "Aap sahi keh rahe hain",
       explanation:
-        "Respectful agreement. Great with in-laws. 'Rahe' for male, 'rahi' for female being addressed.",
+        "Respectful agreement. Great with in-laws. This version is for a male person you're addressing.",
     },
     tags: ["opinion", "agreement", "respectful", "family"],
   },

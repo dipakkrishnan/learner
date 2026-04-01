@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import type { CardFace } from "@/types/learning";
 import { AudioPlayer } from "@/components/voice/audio-player";
 
@@ -9,23 +8,22 @@ interface FlashcardProps {
   front: CardFace;
   back: CardFace;
   subjectSlug: string;
+  isFlipped: boolean;
   showTransliteration?: boolean;
-  onFlip?: (isFlipped: boolean) => void;
+  onFlip: (isFlipped: boolean) => void;
 }
 
 export function Flashcard({
   front,
   back,
   subjectSlug,
+  isFlipped,
   showTransliteration = true,
   onFlip,
 }: FlashcardProps) {
-  const [isFlipped, setIsFlipped] = useState(false);
-
   const handleFlip = () => {
     const next = !isFlipped;
-    setIsFlipped(next);
-    onFlip?.(next);
+    onFlip(next);
   };
 
   return (
@@ -56,7 +54,7 @@ export function Flashcard({
           {front.transliteration && showTransliteration && (
             <p className="text-sm text-zinc-500">{front.transliteration}</p>
           )}
-          <p className="text-xs text-zinc-400 mt-4">Tap to reveal</p>
+          <p className="text-xs text-zinc-400 mt-4">Tap, press Space, or Enter to reveal</p>
         </div>
 
         {/* Back */}

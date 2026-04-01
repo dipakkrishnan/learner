@@ -3,43 +3,45 @@ import type { CardTemplate } from "@/types/subject";
 export const familyCards: CardTemplate[] = [
   {
     type: "VOCABULARY",
-    front: { text: "Mother-in-law (husband's mother)" },
+    front: { text: "Mother-in-law (wife's mother)" },
     back: {
       text: "सास",
       transliteration: "Saas",
-      explanation: "Your husband's mother. Address her as 'Mummy ji' or 'Ma'.",
+      explanation:
+        "Your wife's mother. In real life you'll often say 'Mummy ji', 'Aunty', or whatever the family already uses.",
     },
     tags: ["family", "essential", "in-laws"],
   },
   {
     type: "VOCABULARY",
-    front: { text: "Father-in-law (husband's father)" },
+    front: { text: "Father-in-law (wife's father)" },
     back: {
       text: "ससुर",
       transliteration: "Sasur",
       explanation:
-        "Your husband's father. Address him as 'Papa ji' or 'Bauji'.",
+        "Your wife's father. In conversation you'll often say 'Papa ji', 'Uncle', or the family-specific term instead of 'sasur'.",
     },
     tags: ["family", "essential", "in-laws"],
   },
   {
     type: "VOCABULARY",
-    front: { text: "Sister-in-law (husband's sister)" },
+    front: { text: "Sister-in-law (wife's sister)" },
     back: {
       text: "ननद",
       transliteration: "Nanad",
-      explanation: "Your husband's sister. Often a close bond in families.",
+      explanation:
+        "Your wife's sister. In real families you'll often just use her name or a casual kinship term.",
     },
     tags: ["family", "essential", "in-laws"],
   },
   {
     type: "VOCABULARY",
-    front: { text: "Brother-in-law (husband's brother)" },
+    front: { text: "Brother-in-law (wife's brother)" },
     back: {
-      text: "देवर / जेठ",
-      transliteration: "Devar / Jeth",
+      text: "साला",
+      transliteration: "Saala",
       explanation:
-        "Devar = husband's younger brother. Jeth = husband's older brother.",
+        "Technically your wife's brother. In actual family conversation, people often just use his name, 'bhai', or 'bhaiya'.",
     },
     tags: ["family", "essential", "in-laws"],
   },
@@ -50,7 +52,7 @@ export const familyCards: CardTemplate[] = [
       text: "भाभी",
       transliteration: "Bhabhi",
       explanation:
-        "Brother's wife. A term of endearment and respect. Very commonly used.",
+        "Brother's wife, or casually any older brother's wife figure in the family. Very common and natural.",
     },
     tags: ["family", "essential", "in-laws"],
   },

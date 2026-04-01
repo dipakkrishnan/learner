@@ -57,10 +57,10 @@ export const phraseCards: CardTemplate[] = [
     type: "PHRASE",
     front: { text: "I'm learning Hindi" },
     back: {
-      text: "मैं हिंदी सीख रहा/रही हूँ",
-      transliteration: "Main Hindi seekh raha/rahi hoon",
+      text: "मैं हिंदी सीख रहा हूँ",
+      transliteration: "Main Hindi seekh raha hoon",
       explanation:
-        "'Raha' for males, 'rahi' for females. People love hearing this!",
+        "Male speaker form. People usually light up when they hear this.",
     },
     tags: ["phrase", "essential", "learning"],
   },

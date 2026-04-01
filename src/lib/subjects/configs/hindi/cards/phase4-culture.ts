@@ -48,10 +48,10 @@ export const cultureCards: CardTemplate[] = [
     type: "PHRASE",
     front: { text: "This is my first time here" },
     back: {
-      text: "मैं यहाँ पहली बार आया/आयी हूँ",
-      transliteration: "Main yahaan pehli baar aaya/aayi hoon",
+      text: "मैं यहाँ पहली बार आया हूँ",
+      transliteration: "Main yahaan pehli baar aaya hoon",
       explanation:
-        "'Aaya' for male, 'aayi' for female. Good icebreaker at family gatherings.",
+        "Male speaker form. Good, easy icebreaker at family gatherings.",
     },
     tags: ["cultural", "conversation", "introduction"],
   },
