@@ -1,0 +1,36 @@
+flowchart TB
+  U[User Web Client] --> ONB[Onboarding & Settings]
+  U --> LEARN[Learn Session UI]
+  U --> VOICE[Voice Practice UI]
+  U --> DASH[Dashboard & Progress]
+
+  ONB --> PREFS[User.preferences JSON]
+  LEARN --> API_CARDS[/API Cards & Reviews/]
+  DASH --> API_PROG[/API Progress/]
+  VOICE --> API_VOICE[/API Voice Token/]
+  VOICE --> API_TTS[/API TTS/]
+  VOICE --> API_STT[/API STT Fallback/]
+
+  API_CARDS --> ENGINE[Core Engine]
+  API_PROG --> ENGINE
+  ENGINE --> FSRS[Scheduler ts-fsrs]
+  ENGINE --> SESS[Session Manager]
+  ENGINE --> ADAPT[Adaptive Difficulty]
+  ENGINE --> PATH[Learning Path/Prereqs]
+  ENGINE --> TRACK[Progress Tracker]
+
+  ENGINE --> SUBJECTS[Subject Registry & Config]
+  SUBJECTS --> HINDI[Hindi Config: phases/cards/scenarios/voice]
+
+  API_TTS --> TTS[OpenAI TTS gpt-4o-mini-tts]
+  API_STT --> WHISPER[OpenAI Whisper]
+  VOICE --> WEBSTT[Web Speech API hi-IN]
+  VOICE --> RT[OpenAI Realtime via WebRTC]
+  RT --> API_VOICE
+
+  FSRS --> DB[(PostgreSQL + Prisma)]
+  SESS --> DB
+  TRACK --> DB
+  API_CARDS --> DB
+  API_PROG --> DB
+  PREFS --> DB
